@@ -1,16 +1,24 @@
 {
   "name": "kono",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "repository": "git@github.com:anprettyboy/kono.git",
-  "author": "zhangyaguang1 <zhangyaguang1@360.cn>",
-  "license": "MIT",
-  "devDependencies": {
-    "vitepress": "^0.16.1"
-  },
   "scripts": {
-    "docs:dev": "vitepress dev docs --port 3001",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs --port 3002"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anprettyboy/kono.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anprettyboy/kono/issues"
+  },
+  "homepage": "https://github.com/anprettyboy/kono#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1"
   }
 }
